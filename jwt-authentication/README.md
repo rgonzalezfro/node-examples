@@ -1,29 +1,23 @@
-# express-router
-API server with example routes using express router
-
-## Table of contents
+# jwt-authentication
+Simple JWT based authentication example
 
 * [About the Project](#about-the-project)
   * [Dependencies](#dependencies)
 * [Installation](#installation)
 * [Usage](#usage)
 
-## About the project
-This project demonstrates how to handle routes with express router.
-This example have:
-* Separated files for each route
-* Route parameters
-* Hierarchical routes
-* How to pass route parameters to child routes
+## About the Project
+Example of how to generate tokens and implement authentication with JWT and middlewares in express
 
 ### Dependencies
 * [Express](https://expressjs.com/)
+* [JsonWebToken](https://jwt.io/)
 
 ## Installation
 1. Download as ZIP or clone the repo
 2. Open a terminal at the project folder
 ```sh
-cd express-router
+cd jwt-authentication
 ```
 3. Install dependencies
 ```sh
